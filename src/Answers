@@ -1,0 +1,30 @@
+1. By making use of an example from the above scenario, distinguish between a class and an instantiation of a class.[3]
+You instantiate a class to create a specific class that is also an executable file you can run in a computer which is a class.
+
+2. By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program.	[4]
+The sales person class can inherit from the Sales class
+
+3. Describe how the use of libraries can facilitate the development of programs like this company's administration program.	[3]
+Basic functions can help the process of the programs. It provides a framework for organizing data that is reusable.
+
+5. Complete the constructor public SalesPerson (String id),from the SalesPerson class.
+
+6. Explain why accessor methods are necessary for the SalesPerson class.
+It sets the number of sales the sales person has made.
+
+7. Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and sales classes.
+Note: There is no need to include mutator or accessor methods or a constructor.	[4]
+
+8. Outline a negative effect that a future change in the design of the sales object might have on this suite of programs.	[2]
+
+9. State the output after running this code.	[4]
+
+10. Construct the method calcTotalSales() , in the Sales Person class that calculates the total value of the sales for a specific SalesPerson object.	[5]
+The salesPeople array contains 100 instantiated objects.
+The company wishes to reward the salesperson whose sales have the largest total value.
+
+
+11. By making use of any previously written methods, construct the method highest(), that returns the ID of the salesperson whose sales have the largest total value.	[5]
+
+12. Construct the method addSales (Sales s, String id) , in the Main class, that will add a new Sales object s, to the salesperson with a specified ID.
+Note: You can assume that the ID is a valid one.
